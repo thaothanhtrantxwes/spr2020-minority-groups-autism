@@ -448,7 +448,11 @@ li {
     line-height: 1.5;
     letter-spacing: 0.2pt;
     color: #bcbcbc;
+    
 }
+
+#caption::-moz-selection {background-color: #c8e8e7; color: #353535;}
+#caption::selection {background-color: #c8e8e7; color: #353535;} 
 
 u {
     text-decoration: none;
